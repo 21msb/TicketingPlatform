@@ -1,25 +1,7 @@
-/* styles.css */
-.menu {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-.menu li {
-    display: inline;
-    margin-right: 20px;
-    /* Adjust the spacing between menu items */
-}
-
-h1 {
-    text-align: center;
-    background-color: goldenrod;
-}
-
 .event {
+    font-size: 40px;
+    font-weight: bold;
     text-align: center;
-    font-size: xx-large;
-
 
 }
 
@@ -48,4 +30,30 @@ h1 {
 
 p {
     font-size: xx-large;
+}
+
+/* Define styles for the table */
+table {
+    width: 80%;
+    /* Adjust the width as needed */
+    border-collapse: collapse;
+    margin: 20px auto;
+    /* Center the table on the page */
+
+}
+
+/* Style the table caption (title) */
+caption {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+/* Style table headers and cells */
+th,
+td {
+    padding: 10px;
+    text-align: center;
+    border: 3px solid gold;
 }

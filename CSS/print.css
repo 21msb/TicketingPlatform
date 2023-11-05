@@ -1,0 +1,17 @@
+/* Show only the table with class 'printableTable' and its contents */
+.printableTable, .printableTable caption, .printableTable th, .printableTable td, .printableTable tr {
+    display: table !important;
+}
+
+/* Show the table's parent container */
+.menu, h1, .event, .i1 {
+    display: none !important;
+}
+
+/* Define styles for printing */
+@page {
+    size: auto; /* Auto determines the page size based on content */
+    margin: 10mm; /* Adjust margin as needed */
+}
+
+/* This way, when you print the page, only the table and its content will be included in the printed output, and the rest of the page will be hidden. */
